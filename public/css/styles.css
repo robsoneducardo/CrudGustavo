@@ -1,0 +1,26 @@
+*{
+    padding:0;
+}
+
+h1{
+    text-align: center;
+}
+
+.my-table{
+    /* margin:20px 40px 20px 20px; */
+    /* padding: 10%; */
+    /* background-color: black; */
+}
+
+.my-table th:last-child {
+    text-align: center;
+}
+
+.icon{
+    width: 30px;
+}
+
+.btn{
+    margin: auto;
+    text-align: center;
+}
