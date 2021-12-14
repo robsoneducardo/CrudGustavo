@@ -13,12 +13,12 @@
 <div class="col-lg-1"></div>
 <div class="col-lg-10">
 <table class="table my-table">
-    <tr>
+     <tr>
         <thead>
-            <th>nome</th>
-            <th>categoria</th>
-            <th>ano_criacao</th>
-            <th>valor</th>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Ano de Criação</th>
+            <th>Valor</th>
             <th colspan="2">Ações</th>
         </thead>
     </tr>
@@ -51,6 +51,9 @@
             </td>
         </tr>
     @endforeach
+    <tfoot>
+        <td colspan="6">Dados obtidos de localhost:8000</td>
+    </tfoot>
 </table>
 </div>
 <div class="col-lg-1"></div>

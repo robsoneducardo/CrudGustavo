@@ -6,13 +6,26 @@ h1{
     text-align: center;
 }
 
-.my-table{
-    /* margin:20px 40px 20px 20px; */
-    /* padding: 10%; */
-    /* background-color: black; */
+.my-table th:last-child {
+    text-align: center;
 }
 
-.my-table th:last-child {
+.my-table tbody td:nth-last-child(2){
+    text-align: center;
+}
+
+.my-table tbody td:nth-last-child(1){
+    text-align: center;
+}
+
+.table tfoot{
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.bottom_cel{
+    margin: auto;
     text-align: center;
 }
 
