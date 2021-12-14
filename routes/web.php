@@ -39,4 +39,8 @@ Route::prefix('jogos')->group(function(){
     ->where('id', '[0-9]+')->name('jogos-edit');
     Route::put('/{id}', [JogosController::class, 'update'])
     ->where('id','[0-9]+')->name('jogos-update');
+
+    // DELETE
+    Route::delete('/{id}', [JogosController::class, 'destroy'])
+    ->where('id','[0-9]+')->name('jogos-destroy');
 });
